@@ -19,4 +19,5 @@ We are pretty much fascinated to know how the teamwork helped in executing a sim
 Well, PhoneBooks can be embedded with the regular phone calling apps to enhance user experience while calling someone.
 
 
-PLease do like our project on https://devpost.com/software/dial-estimator#updates
+Please do like our project on https://devpost.com/software/dial-estimator
+
