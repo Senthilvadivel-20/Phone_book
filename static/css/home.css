@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Padauk', sans-serif;
+}
+
+
+body{  
+  
+    /* position:fixed; */
+    text-align: center;
+    /* background: rgb(0,0,0);
+    background: linear-gradient(287deg, rgba(0,0,0,1) 0%, rgba(132,26,188,1) 46%, rgba(13,4,15,1) 81%); */
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,9,30,0.7),rgba(0,0,0,0.5)),url('/static/images/home.jpg');
+    
+    background-size: cover;
+    filter: blur(30%);
+  }
+
+  .header{
+    justify-content: center;
+  }
+
+.container{
+  margin: 2em;
+  display: flex;
+  justify-content: center;
+}
+h1{
+  color: aliceblue;
+  font-size: 5em;
+}
+
+h3{
+  font-size:2em ;
+  color: white;
+}
+
+
+nav a .btn{
+  display: inline-block;
+  width: 250px;
+  height: 5em;
+  margin: 10px;
+  padding: 10px;
+  background-color:rgb(69, 236, 97);
+  border-radius: 10em;
+  font-weight: 900;
+}
+
+nav a .btn:hover{
+  border: 1px solid rgb(17, 118, 235);
+  background: rgb(17, 118, 235);
+  box-shadow: 0 0 5px rgb(17, 118, 235),
+              0 0 25px rgb(17, 118, 235);
+  transition: 0.5s;
+}
+
+#icon{
+  transform: scaleX(-1);
+}
+
+#number{
+  width: 30em;
+  padding: 5px;
+  font-size: 10px;  
+  transform: scale(1.5);
+  border-radius: 10em;
+ 
+}
+.img-box{
+  display: grid;
+  height: 100%;
+}
+
+
+img{
+ max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+  object-fit: cover;
+}
+
+
+  

@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Calling.....
+        </title>
+        <link rel="stylesheet" href="{% static 'css/calling.css' %}">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Padauk&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+     
+        <div class="container">
+            <i class="fa fa-user-circle fa-7x" aria-hidden="true" style="color: gray;"></i>
+            <br>
+    
+
+            <div class="child">
+
+            <h1><Calling></Calling> {{name}}</h1>
+            <h2>{{number}}</h2>
+            
+            <h3>{{land_mark}} {{time_zone}}</h3>
+            
+            <h4>{{sim}}</h4>
+        
+            <p>{{Message}}</p>
+
+        </div>
+        
+        <br>
+
+        <section id="disconnect">
+        
+        <a href="{% url 'home' %}"><button class="btn"><i class="fa fa-phone fa-2x disconnect" aria-hidden="true" style="background-color: rgb(219, 5, 5);color: aliceblue;"></i></button></a>
+    </section>
+       
+    </div>
+    </body>
+</html>

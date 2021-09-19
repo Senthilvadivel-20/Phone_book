@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Padauk', sans-serif;
+    
+}
+
+body{
+        
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,9,30,0.7),rgba(0,0,0,0.5)),url('/static/images/home.jpg');
+    background-size: cover;
+    filter: blur(30%);
+
+}
+h1{
+    color: aliceblue;
+    font-size: 5em;
+  }
+  
+
+.header{
+    display: block;
+    margin: auto;
+    justify-content: center;
+
+}
+h3{
+    font-size: large;
+    color: aliceblue;
+}
+
+.btn{
+     
+    padding: 0.1px;
+    margin: 10px;
+    border-radius: 100px;
+}
+
+.disconnect{
+    padding: 10px;
+   
+    border-radius: 50px;
+}
+.fa{
+    margin: 10px;
+
+}
+
+.container{
+    display:block;
+    align-items: center;
+    position: relative;
+    color: aliceblue;
+    border: 2px solid white;
+    margin: 80px 65px;
+    padding: 55px 30px;
+    width: 33%;
+    border-radius: 17px;
+    margin: auto; 
+   
+}
+
+.child {
+    width: 500px;
+    height: 500px;
+    /* Center vertically and horizontally */
+    position: absolute;
+    margin: -100px 0 0 -25px; /* apply negative top and left margins to truly center the element */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+
+#disconnect{
+
+}

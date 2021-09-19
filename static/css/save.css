@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Padauk', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,9,30,0.7),rgba(0,0,0,0.5)),url('/static/images/home.jpg');
+    background-size: cover;
+    filter: blur(30%);
+}
+
+.container{
+    color: aliceblue;
+    border: 2px solid white;
+    margin: 80px 65px;
+    padding: 55px 30px;
+    width: 33%;
+    border-radius: 17px;
+   margin: auto;
+}
+
+.input{
+    padding: 4px;
+    margin: 1%;
+    border-radius:8px ;
+}
+
+.submit{
+    padding: 4px;
+    margin: 20px;
+    margin-left: 20px;
+    align-self: center;
+}
+
+.home-key{
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    padding: 5px;
+    margin: 10px 5px;
+    border-radius: 5px;
+}
+.home-key:hover{
+    color: black;
+    background-color: #fff;
+}
